@@ -1,0 +1,225 @@
+Timestamp: 11/9/2019 13:02:47
+Responder Name: Vincent Monteleone
+Time of First Attack: 9:34:00 AM
+Time of Attack Detection: 10:15:00 AM
+Estimated Recovery Time : 00:44
+Duration of Attack : 00:10
+Has the Attack Ended?: Yes
+Estimated Damage Account: A lot of damage
+Number of Hosts Affected: 10
+Number of Users Affected : 15
+Severity of Attack : Elevated
+Attack Category: Web Server
+Type of Incident : Denial of Service
+How did you become aware of the incident?: My mom told me!
+Primary Purpose of Host : Web Server
+Host Name : HELIOS-WEB
+IP Address: 10.0.4.7
+Operating System : CentOS 7
+Applications Affected: RDP
+Was there any loss/compromise of sensitive data ?: A ton of loss to all data.
+Were there any change to afflicted system?: None
+Was the HMI/ICS affected?: Yes
+Corrective measures enacted/used: I made Derick get me coffee.
+
+
+Timestamp: 11/9/2019 13:52:05
+Responder Name: Bryan Rosado
+Time of First Attack: 10:34:00 AM
+Time of Attack Detection: 2:35:00 PM
+Estimated Recovery Time : 01:33
+Duration of Attack : 02:34
+Has the Attack Ended?: Yes
+Estimated Damage Account: SO MUCH 
+Number of Hosts Affected: 12
+Number of Users Affected : 50
+Severity of Attack : High
+Attack Category: NTP
+Type of Incident : Malware Execution
+How did you become aware of the incident?: Your mom!
+Primary Purpose of Host : DC (AD/DNS)
+Host Name : HELIOS-HMI
+IP Address: 10.0.4.8
+Operating System : Windows Server 2012
+Applications Affected: MySQL
+Was there any loss/compromise of sensitive data ?: None whatsoever
+Were there any change to afflicted system?: SO many changes
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: I sucked my thumb.
+
+
+Timestamp: 11/12/2019 9:08:09
+Responder Name: Martin Guzman
+Time of First Attack: 10:39:00 AM
+Time of Attack Detection: 11:00:00 AM
+Estimated Recovery Time : 00:00
+Duration of Attack : 00:21
+Has the Attack Ended?: Yes
+Estimated Damage Account: Damage is too much to account for. 
+Number of Hosts Affected: 40
+Number of Users Affected : 35
+Severity of Attack : Severe
+Attack Category: File Server
+Type of Incident : Active Reconnaissance
+How did you become aware of the incident?: Derick told me that I needed to check the PC, I dunno. 
+Primary Purpose of Host : HMI/ICS System
+Host Name : HELIOS-WIN
+IP Address: 10.0.4.10
+Operating System : Ubuntu 16.04
+Applications Affected: MySQL
+Was there any loss/compromise of sensitive data ?: There was no loss to anything except for my pride and dignity. 
+Were there any change to afflicted system?: The only change was that of kicking Derick off the damn team. 
+Was the HMI/ICS affected?: Yes
+Corrective measures enacted/used: I took it upon myself to officially hack the mainframe. It was time that I showed my true colors in the best fashion that I could. I don't want to go into much detail, but let's just say that I'm gonna kill Martin Guzman. 
+
+
+Timestamp: 11/13/2019 19:40:20
+Responder Name: Isaac Sierra
+Time of First Attack: 8:30:00 PM
+Time of Attack Detection: 8:35:00 AM
+Estimated Recovery Time : 00:00
+Duration of Attack : 00:05
+Has the Attack Ended?: Yes
+Estimated Damage Account: $900
+Number of Hosts Affected: 1
+Number of Users Affected : 35
+Severity of Attack : Low
+Attack Category: File Server
+Type of Incident : Active Reconnaissance
+How did you become aware of the incident?: 
+Primary Purpose of Host : FTP Server
+Host Name : HELIOS-WIN
+IP Address: 10.0.4.8
+Operating System : Windows Server 2012
+Applications Affected: FTP
+Was there any loss/compromise of sensitive data ?: No there was not. 
+Were there any change to afflicted system?: No there was not.
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: Attackers attempted to use default "anonymous" account to access FTP server. Default user "anonymous" was removed from Server access upon discovery. Attackers attempted multiple time to connect to FTP server with invalid credentials. Through the use of active log monitoring, we were able to identify the attackers and kick their connection. We will keep note of the IP Address and deny future connections to our services.
+
+
+Timestamp: 11/15/2019 12:39:44
+Responder Name: Derick Naraine
+Time of First Attack: 12:40:00 PM
+Time of Attack Detection: 12:00:00 PM
+Estimated Recovery Time : 00:00
+Duration of Attack : 00:00
+Has the Attack Ended?: Yes
+Estimated Damage Account: $0
+Number of Hosts Affected: 0
+Number of Users Affected : 0
+Severity of Attack : Low
+Attack Category: ICS/HMI
+Type of Incident : Active Reconnaissance
+How did you become aware of the incident?: Port scan
+Primary Purpose of Host : HMI/ICS System
+Host Name : HELIOS-HMI
+IP Address: 10.0.4.10
+Operating System : Ubuntu 16.04
+Applications Affected: SSH
+Was there any loss/compromise of sensitive data ?: None.
+Were there any change to afflicted system?: None.
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: Disabled ports
+
+
+Timestamp: 11/15/2019 12:41:58
+Responder Name: Martin Guzman
+Time of First Attack: 1:20:00 AM
+Time of Attack Detection: 2:23:00 AM
+Estimated Recovery Time : 01:30
+Duration of Attack : 00:10
+Has the Attack Ended?: Yes
+Estimated Damage Account: 2000
+Number of Hosts Affected: 1
+Number of Users Affected : 2
+Severity of Attack : Guarded
+Attack Category: Web Server
+Type of Incident : Web Attack
+How did you become aware of the incident?: Log files
+Primary Purpose of Host : Web Server
+Host Name : HELIOS-WEB
+IP Address: 10.0.4.6
+Operating System : CentOS 7
+Applications Affected: HTTP
+Was there any loss/compromise of sensitive data ?: User credentials were taken 
+Were there any change to afflicted system?: System has malware
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: Removed malware and changed network credentials 
+
+
+Timestamp: 11/15/2019 12:56:29
+Responder Name: Hrishikesh Ramprashad
+Time of First Attack: 12:54:00 PM
+Time of Attack Detection: 12:54:00 PM
+Estimated Recovery Time : 00:30
+Duration of Attack : 00:05
+Has the Attack Ended?: Yes
+Estimated Damage Account: 1500
+Number of Hosts Affected: 2
+Number of Users Affected : 8
+Severity of Attack : Guarded
+Attack Category: File Server
+Type of Incident : Denial of Service
+How did you become aware of the incident?: TEST
+Primary Purpose of Host : FTP Server
+Host Name : HELIOS-WIN
+IP Address: 10.0.4.8
+Operating System : Windows Server 2012
+Applications Affected: MySQL
+Was there any loss/compromise of sensitive data ?: TEST
+Were there any change to afflicted system?: TET
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: TEST
+
+
+Timestamp: 11/15/2019 13:00:54
+Responder Name: Isaac Sierra
+Time of First Attack: 11:30:00 AM
+Time of Attack Detection: 11:45:00 AM
+Estimated Recovery Time : 00:15
+Duration of Attack : 00:15
+Has the Attack Ended?: Yes
+Estimated Damage Account: $1,000
+Number of Hosts Affected: 1
+Number of Users Affected : 0
+Severity of Attack : Low
+Attack Category: File Server
+Type of Incident : 
+How did you become aware of the incident?: After checking live connections through my command prompt, i was able to discover a foreign ip adresss. After going though multiple sets of logs i was able to determine that the user was attempting to get into our Filezilla ftp server. 
+Primary Purpose of Host : FTP Server
+Host Name : HELIOS-WIN
+IP Address: 10.0.4.8
+Operating System : Windows Server 2012
+Applications Affected: FTP
+Was there any loss/compromise of sensitive data ?: NO There was not. Due to preventive measures taken beforehand, the user was unable to login via the default anonymous user account. 
+Were there any change to afflicted system?: NO. After seeing the connection i was able to kick the connection. I have since notified my team about the rogue ip address and we are all on the look out
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: We have kicked the connection, and are aware of the possible threat. We will continue to monitor all connections and kick whatever connection needed to ensure maximum security.
+
+
+Timestamp: 11/15/2019 13:31:15
+Responder Name: Bryan Rosado
+Time of First Attack: 1:29:00 PM
+Time of Attack Detection: 1:30:00 PM
+Estimated Recovery Time : 01:00
+Duration of Attack : 00:02
+Has the Attack Ended?: Yes
+Estimated Damage Account: $35
+Number of Hosts Affected: 1
+Number of Users Affected : 5
+Severity of Attack : Low
+Attack Category: DNS
+Type of Incident : Active Reconnaissance
+How did you become aware of the incident?: Through the viewing of system logs
+Primary Purpose of Host : DC (AD/DNS)
+Host Name : HELIOS-ML
+IP Address: 10.0.4.7
+Operating System : Debian 9
+Applications Affected: DNS
+Was there any loss/compromise of sensitive data ?: None
+Were there any change to afflicted system?: No
+Was the HMI/ICS affected?: No
+Corrective measures enacted/used: More scanning and killing of active connections
+
+
